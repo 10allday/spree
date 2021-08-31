@@ -12,6 +12,7 @@ FactoryBot.define do
     facebook               { 'spreecommerce' }
     twitter                { 'spreecommerce' }
     instagram              { 'spreecommerce' }
+    deleted_at             { nil }
 
     trait :with_favicon do
       transient do
